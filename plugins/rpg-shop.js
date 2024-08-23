@@ -5,17 +5,17 @@ const handler = async (m, {conn, command, args}) => {
   count = Math.max(1, count);
   if (global.db.data.users[m.sender].exp >= xpperestrellas * count) {
     global.db.data.users[m.sender].exp -= xpperestrellas * count;
-    global.db.data.users[m.sender].estrellas += count;
+    global.db.data.users[m.sender].corazones += count;
     conn.reply(m.chat, `
 ╔═══════⩽✰⩾═══════╗
 ║    𝐍𝐨𝐭𝐚 𝐃𝐞 𝐏𝐚𝐠𝐨 
 ╠═══════⩽✰⩾═══════╝
 ║╭──────────────┄
-║│ *Compra Nominal* : + ${count}🌟
+║│ *Compra Nominal* : + ${count}🤍
 ║│ *Gastado* : -${xpperestrellas * count} XP
 ║╰──────────────┄
 ╚═══════⩽✰⩾═══════╝`, m, rcanal);
-  } else conn.reply(m.chat, `😔 Lo siento, no tienes suficiente *XP* para comprar *${count}* Estrellas 🌟`, m, rcanal);
+  } else conn.reply(m.chat, `😔 Lo siento, no tienes suficiente *XP* para comprar *${count}* Corazones 🤍`, m, rcanal);
 };
 handler.help = ['Buy', 'Buyall'];
 handler.tags = ['xp'];
