@@ -7,21 +7,21 @@ import cfonts from 'cfonts';
 import { createInterface } from 'readline';
 import yargs from 'yargs';
 import chalk from 'chalk';
-console.log('\n✰ Iniciando GenesisBot-MD ✰');
+console.log('\n✰ Iniciando Génesis ✰');
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(__dirname);
 const { name, description, author, version } = require(join(__dirname, './package.json'));
 const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
-say('Genesis-MD', {
+say('Genesis\nBot', {
 font: 'block',
 align: 'center',
 colors: ['white']
 });
-say(`By • Angel-OFC y Titanium Team`, {
+say(`By • Ángel OFC`, {
 font: 'console',
 align: 'center',
-colors: ['white']
+colors: ['yellow']
 });
 var isRunning = false;
 function start(file) {
@@ -31,7 +31,7 @@ let args = [join(__dirname, file), ...process.argv.slice(2)];
 say([process.argv[0], ...args].join(' '), {
 font: 'console',
 align: 'center',
-colors: ['white']
+colors: ['green']
 });
 setupMaster({
 exec: args[0],
@@ -72,4 +72,4 @@ console.warn('🤍 Se excedió el límite de Listeners en:');
 console.warn(warning.stack);
 }
 });
-start('mini.js');
+start('start.js');
