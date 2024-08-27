@@ -1,52 +1,28 @@
-let fetch = require("node-fetch")
-let handler = async (m, {
-    conn,
-    isOwner,
-    usedPrefix,
-    command,
-    args
-}) => {
-    let query = "• *Example :* .vnmorse Kemii"
-    let text
-    if (args.length >= 1) {
-        text = args.slice(0).join(" ")
-    } else if (m.quoted && m.quoted.text) {
-        text = m.quoted.text
-    } else throw query
-    await conn.sendMessage(m.chat, { react: { text: '🕒', key: m.key }})
-    try {
-        let res = await Morse(text)
-        await conn.sendMessage(m.chat, {
-            audio: res,
-            seconds: fsizedoc,
-            ptt: true,
-            mimetype: "audio/mpeg",
-            fileName: "vn.mp3",
-            waveform: [100, 0, 100, 0, 100, 0, 100]
-        }, {
-            quoted: m
-        })
-    } catch (e) {
-        m.reply('Failed')
-    }
-}
-handler.help = ["vnmorse *<text>*"]
-handler.tags = ["internet"]
-handler.command = /^(vnmorse)$/i
-export default handler
+const axios = require('axios');
 
-async function Morse(input) {
-    let res = await fetch('http://api.funtranslations.com/translate/morse/audio?text=' + input + '&speed=0&tone=0', {
-        headers: {
-            'accept': 'application/json',
-            'content-type': 'application/json'
-        }
-    });
-    let su = await res.json()
-    let wavUrl = su.contents.translated.audio
-    let buffer = Buffer.from(
-        wavUrl.split('base64,')[1],
-        'base64'
-    )
-    return buffer
+async function cekUser(url) {
+    return await axios(url).catch(_ => null);
 }
+
+async function sendNgl(url, text) {
+    return await axios({
+        url,
+        method: 'post',
+        data: new URLSearchParams({ question: text })
+    }).catch(console.log);
+}
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+    let [user, msg] = text.split`|`;
+    if (!(user && msg)) throw `Contoh: ${usedPrefix + command} username/ngl_link | pesan`;
+    let link = /^(http|https):\/\/ngl.link/gi.test(user) ? user : /ngl.link/gi.test(user) ? `https://${user}` : `https://ngl.link/${user}`;
+    let data = await cekUser(link);
+    if (!data) throw 'Pengguna tidak ditemukan/URL tidak valid';
+    await sendNgl(link, msg).then(() => m.reply(`Berhasil mengirim ngl ke *"${user}"*\nPesan: *"${msg}"*`));
+};
+
+handler.help = ['ngl'];
+handler.tags = ['tools'];
+handler.command = /^ngl$/i;
+
+export default handler;
