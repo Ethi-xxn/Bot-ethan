@@ -22,4 +22,4 @@ handler.tags = ['group'];
 handler.command = /^(totalpesan)$/i;
 handler.group = true;
 
-module.exports = handler;
+export default handler;
