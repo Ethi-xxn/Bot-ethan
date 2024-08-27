@@ -13,6 +13,5 @@ let handler = async (m, { conn,  text, usedPrefix, command }) => {
 handler.help = ['happymod']
 handler.tags = ['dl']
 handler.command = /^(happymod)$/i
-handler.premium = false
 
 module.exports = handler
