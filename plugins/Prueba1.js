@@ -18,4 +18,4 @@ handler.help = ['pixiv'].map(v => v + ' *<teks>*')
 handler.command = /^(pixiv)$/i  
 handler.tags = ['internet']
 handler.limit = true
-export default handler
+export default handler;
