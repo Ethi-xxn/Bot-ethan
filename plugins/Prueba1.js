@@ -24,7 +24,7 @@ handler.help = ["fastgpt *<text>*"]
 handler.tags = ["internet", "ai"];
 handler.command = /^(fastgpt)$/i
 
-module.exports = handler
+export default handler
 
 /* New Line */
 
