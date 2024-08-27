@@ -2,12 +2,12 @@ let fs = require('fs')
 let fetch = require('node-fetch')
 
 let handler = async (m, { conn, usedPrefix, command }) => {
-  conn.sendMessage(m.chat, {
+  /*conn.sendMessage(m.chat, {
     react: {
       text: '🕒',
       key: m.key,
     }
-  });
+  });*/
 let res = await fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/anime/random.txt')
 let txt = await res.text()
 
