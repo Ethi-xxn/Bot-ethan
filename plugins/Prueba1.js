@@ -24,7 +24,7 @@ handler.tags = ['downloader']
 handler.command = /^(pindl|pinterestdl)$/i
 
 
-module.exports = handler
+export default handler
 
 
 async function pin(url) { 
