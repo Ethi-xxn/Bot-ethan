@@ -1,25 +1,60 @@
-let fs = require('fs')
-let fetch = require('node-fetch')
+const fetch = require("node-fetch");
 
-let handler = async (m, { conn, usedPrefix, command }) => {
-  /*conn.sendMessage(m.chat, {
-    react: {
-      text: '🕒',
-      key: m.key,
-    }
-  });*/
-let res = await fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/anime/random.txt')
-let txt = await res.text()
+const cheerio = require('cheerio')
 
-let arr = txt.split('\n')
-let cita = arr[Math.floor(Math.random() * arr.length)]
-  await conn.sendFile(m.chat, cita, 'anime.jpg', done, m)
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+
+	if (!text) return conn.reply(m.chat, '[❗] *Penggunaan:* .pindl <url>', m)
+
+	conn.sendMessage(m.chat, { react: { text: "⏳", key: m.key } });
+
+	let hasil = await pin(text)
+
+	conn.sendFile(m.chat, hasil, 'pinterest.mp4', '`Berhasil`', m)
+
+await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key }})
+
 }
-handler.tags = ['anime']
-handler.help = ['randomanime']
-handler.command = /^(randomanime|animerandom)$/i
 
-handler.register = false
-handler.limit = true
+handler.help = ['pindl']
 
-export default handler
+handler.tags = ['downloader']
+
+handler.command = /^(pindl|pinterestdl)$/i
+
+
+module.exports = handler
+
+
+async function pin(url) { 
+
+     return new Promise(async (resolve, reject) => { 
+
+         let form = new URLSearchParams() 
+
+         form.append('url', url) 
+
+         let html = await (await fetch('https://pinterestvideodownloader.com/', { method: 'POST', body: form })).text() 
+
+         $ = cheerio.load(html) 
+
+         let data = [] 
+
+         $('table > tbody > tr').each(function (i, e) { 
+
+             if ($($(e).find('td')[0]).text() != '') data.push({ 
+
+                 url: $($(e).find('td')[0]).find('a').attr('href') 
+
+             }) 
+
+         }) 
+
+         if (data.length == 0) return resolve({ status: false }) 
+
+         resolve({ status: true, data }) 
+
+     }) 
+
+ } 
