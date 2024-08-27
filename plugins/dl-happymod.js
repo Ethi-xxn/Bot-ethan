@@ -12,7 +12,6 @@ let handler = async (m, { conn,  text, usedPrefix, command }) => {
 }
 handler.help = ['happymod']
 handler.tags = ['downloader']
-
 handler.command = /^(happymod)$/i
 handler.premium = false
 
