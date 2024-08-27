@@ -57,4 +57,4 @@ handler.command = /^aihutao$/i
 handler.tags = ['ai'];
 handler.premium = false;
 
-module.exports = handler;
+export default handler;
