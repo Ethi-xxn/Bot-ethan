@@ -1,15 +1,14 @@
-let fetch = require('node-fetch')
-
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-	if (!text) return conn.reply(m.chat,  `• *Example :* .ffstalk 12345678`, m)
-	let kemii = await fetch(`https://api.lolhuman.xyz/api/freefire/${text}?apikey=${global.lolkey}`)
-	let hasil = await kemii.json()
-	conn.reply(m.chat, `${hasil.result}`, m)
-   console.log(hasil)
+let { generateWAMessageFromContent, proto, prepareWAMessageMedia } = require("@whiskeysockets/baileys") 
+let handler = async (m, { conn }) => {
+var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+"contactMessage": {
+"displayName": `Whatsapp Bot`,
+"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Khemii;Bot;;;\nFN:Whatsapp Bot\nTEL;type=Mobile;waid=13135550002:+62 838-9738-7848\nEND:VCARD",
 }
-handler.help = ['ffstalk *<text>*']
-handler.tags = ['stalking']
-handler.command = /^(ffstalk)$/i
-handler.limit = true
-
+}), { userJid: m.chat, quoted: m })
+conn.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
+}
+handler.tags = ['ai']
+handler.help = ['metaai']
+handler.command = ["metaai"]
 module.exports = handler
