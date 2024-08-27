@@ -11,7 +11,7 @@ let handler = async (m, { conn,  text, usedPrefix, command }) => {
    await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key }})
 }
 handler.help = ['happymod']
-handler.tags = ['downloader']
+handler.tags = ['dl']
 handler.command = /^(happymod)$/i
 handler.premium = false
 
