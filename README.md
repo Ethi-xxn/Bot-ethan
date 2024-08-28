@@ -109,3 +109,69 @@ href="https://github.com/Angelito-OFC"><img src="https://github.com/Angelito-OFC
 > Copyright (c) 2024 **[Angelito-OFC](https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y)**.
 
 **`¡GRACIAS POR PREFERIRNOS!` 🍟**
+
+
+---
+
+### **`💭 Contáctanos`**
+
+<details>
+<summary><b> 🌹 Contáctos</b></summary>
+
+* theyaemoribot@gmail.com
+* https://wa.me/573218138672
+* https://wa.me/5351524614
+* https://wa.me/573205853665
+* https://wa.me/573106909511
+
+</details>
+
+---
+
+### **`☁️ CORINPLUS HOTS`**
+<a href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125px"></a>
+
+<details>
+ <summary><b>:paperclip: Enlaces Importantes</b></summary>
+
+- **Dashboard:** [`Aquí`](https://dash.corinplus.com)
+- **Panel:** [`Aquí`](https://panel.corinplus.com)
+- **Estado de servicios:** [`Aquí`](https://status.corinplus.com)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
+- **Grupo - Soporte:** [`Aquí`](https://chat.whatsapp.com/K235lkvaGvlGRQKYm26xZP)
+- **Contacto:** [`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1)
+- **Contacto:** [`elrebelde21`](https://facebook.com/elrebelde21)
+
+</details>
+
+---
+
+#### **`💣 Instalación por cloudshell`**
+
+<details>
+ <summary><b> 🦎 Comandos</b></summary>
+
+[![blog](https://img.shields.io/badge/Video-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+](https://youtu.be/0JtOm_ie4CQ?si=kbL823AQmUhC3PmC)
+
+[`🚩 Instalar Cloud Shell Clic Aqui`](https://www.mediafire.com/file/bp2l6cci2p30hjv/Cloud+Shell_1.apk/file)
+
+```bash
+> git clone https://github.com/Dev-Diego/YaemoriBot-MD
+```
+
+```bash
+> cd YaemoriBot-MD && yarn install
+```
+
+```bash
+> npm install
+```
+
+```bash
+> npm start
+```
+
+</details>
+
+---
