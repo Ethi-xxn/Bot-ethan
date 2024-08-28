@@ -46,7 +46,7 @@
 
 ---
 
-#### **`💣 Instalación por cloudshell`**
+#### **`🖥️ TERMUX`**
 <a href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125px"></a>
 
 <details>
