@@ -55,22 +55,24 @@
 [![blog](https://img.shields.io/badge/Video-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/0JtOm_ie4CQ?si=kbL823AQmUhC3PmC)
 
-[`🚩 Instalar Cloud Shell Clic Aqui`](https://www.mediafire.com/file/bp2l6cci2p30hjv/Cloud+Shell_1.apk/file)
+[`☕ Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
+
+> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ```bash
-> git clone https://github.com/Dev-Diego/YaemoriBot-MD
+termux-setup-storage
 ```
-
 ```bash
-> cd YaemoriBot-MD && yarn install
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
-
 ```bash
-> npm install
+git clone https://github.com/Angelito-OFC/GenesisBot-MD && cd GenesisBot-MD
 ```
-
 ```bash
-> npm start
+yarn install && npm install
+```
+```bash
+npm start
 ```
 
 </details>
@@ -78,7 +80,7 @@
 ---
 #### ☂️ INSTALACION MANUAL POR TERMUX ☂️
 
-[`✨ Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
+[`✨ Instalar Termux Clic Aqui`]()
 
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
