@@ -50,10 +50,7 @@
 <a href="https://dash.corinplus.com"><img src="https://telegra.ph/file/f74337cb95bc369ea3329.jpg" height="125px"></a>
 
 <details>
- <summary><b> 🦎 Comandos</b></summary>
-
-[![blog](https://img.shields.io/badge/Video-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/0JtOm_ie4CQ?si=kbL823AQmUhC3PmC)
+ <summary><b> 😼 Comandos</b></summary>
 
 [`☕ Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 
