@@ -54,7 +54,7 @@ return ` ${emojiMap[key] || '🔹'} *${formattedKey}:* ${valueToDisplay}`}).join
 
 await conn.sendButtonMessages(m.chat, [
 [formattedData.title, packname, bestItem.image || logo, [
-['Doc.mp3', usedPrefix + `ytadoc ${bestItem.url}`], ['Doc.mp4', usedPrefix + `ytdoc ${bestItem.url}`]
+['Doc.mp4', usedPrefix + `ytdoc ${bestItem.url}`]
 ], null, [
 ['Ver Canal', canal]
 ],
