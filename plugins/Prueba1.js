@@ -57,7 +57,7 @@ await conn.sendButtonMessages(m.chat, [
 ], null, [
 []
 ],
-[["Ver Lista", formattedData.rows]]
+[["ʀᴇꜱᴜʟᴛᴀᴅᴏꜱ 🍂", formattedData.rows]]
 ]], m, fake)
 
 } catch (error) {
