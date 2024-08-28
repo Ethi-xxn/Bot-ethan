@@ -15,7 +15,7 @@ highlight_label: "Popular",
 rows: [{
 header: bestItem.title,
 id: `${usedPrefix}ytmp4 ${bestItem.url}`,
-title: wait,
+title: bestItem.title,
 description: ""
 }]
 }, {
