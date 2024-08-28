@@ -53,7 +53,7 @@ const valueToDisplay = key === 'views' ? new Intl.NumberFormat('en', { notation:
 return ` ${emojiMap[key] || '🔹'} *${formattedKey}:* ${valueToDisplay}`}).join('\n')
 
 await conn.sendButtonMessages(m.chat, [
-[formattedData.title, packname, bestItem.image || logo, [
+[formattedData.title, titulowm2, bestItem.image || logo, [
 ], null, [
 []
 ],
