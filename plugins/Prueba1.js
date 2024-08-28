@@ -58,7 +58,7 @@ await conn.sendButtonMessages(m.chat, [
 []
 ],
 [["Ver Lista", formattedData.rows]]
-]], m)
+]], m, fake)
 
 } catch (error) {
 console.error(error)
