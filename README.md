@@ -75,60 +75,8 @@ yarn install && npm install
 npm start
 ```
 
-</details>
-
----
-#### ☂️ INSTALACION MANUAL POR TERMUX ☂️
-
-[`✨ Instalar Termux Clic Aqui`]()
-
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-
-```bash
-termux-setup-storage
-```
-```bash
-apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
-```
-```bash
-git clone https://github.com/Angelito-OFC/GenesisBot-MD && cd GenesisBot-MD
-```
-```bash
-yarn install && npm install
-```
-```bash
-npm start
-```
-
-🍀 **`ACTIVAR EN TERMUX EN CASO DE DETENERSE`**
-```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd 
-> cd GenesisBot-MD
-> npm start
-```
-
-🍄 **`OBTENER OTRO CODIGO QR`**
-```bash
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd GenesisBot-MD
-> rm -rf GenesisSession
-> npm start
-```
-
-🍁 **`GENESIS 24/7 (TERMUX)`**
-```bash
-> termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
-```
-
-🌻 **`ACTUALIZAR GENESIS`**
-> Note Comandos para actualizar Ai Yaemori  de forma automática
-```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/OfcDiego/YaemoriBot-MD/master/update.sh | bash
-```
-Para que no pierda su progreso en Yaemori, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
-
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
+</details>
 
 ---
 
