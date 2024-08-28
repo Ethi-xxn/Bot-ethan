@@ -67,5 +67,5 @@ conn.reply(m.chat, `Ocurrió un error.${error}`, m)
 }
 }
 
-handler.command = ['test3']
+handler.command = ['test7']
 export default handler
