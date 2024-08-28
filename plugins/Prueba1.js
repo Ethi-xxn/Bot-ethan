@@ -14,19 +14,19 @@ title: "Vídeo más Popular 😼",
 highlight_label: "Popular",
 rows: [{
 header: bestItem.title,
-id: `${usedPrefix}mp4 ${bestItem.url}`,
+id: `${usedPrefix}ytmp4 ${bestItem.url}`,
 title: wait,
 description: ""
 }]
 }, {
-title: "Más",
+title: "Videos Encontrados 🤍",
 rows: videoItems.map(({
 title,
 url,
 description
 }, index) => ({
 header: `${index + 1}). ${title}`,
-id: `.yta ${url}`,
+id: `.ytmp4 ${url}`,
 title: description,
 description: ""
 }))
