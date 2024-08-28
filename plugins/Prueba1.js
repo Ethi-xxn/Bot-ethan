@@ -3,7 +3,7 @@ const handler = async (m, { conn, usedPrefix, args, command }) => {
 try {
 const text = args.length >= 1 ? args.slice(0).join(" ") : (m.quoted && m.quoted?.text || m.quoted?.caption || m.quoted?.description) || null
 
-if (!text) return m.reply(`> Ejemplo: ${usedPrefix + command} hislerim`)
+if (!text) return m.reply(` *Escriba el título de algún vídeo de Youtube*\n\nEjemplo, ${usedPrefix + command} Bots de WhatsApp`, m, rcanal, )
 
 const { all: [bestItem, ...moreItems] } = await ytSearch(text)
 const videoItems = moreItems.filter(item => item.type === 'video')
