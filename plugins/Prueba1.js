@@ -57,7 +57,7 @@ await conn.sendButtonMessages(m.chat, [
 ], null, [
 ['Ver Canal', canal]
 ],
-["Ver Lista", formattedData.rows]]
+[["Ver Lista", formattedData.rows]]
 ]], m)
 
 } catch (error) {
