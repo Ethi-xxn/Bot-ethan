@@ -55,8 +55,6 @@ return ` ${emojiMap[key] || '🔹'} *${formattedKey}:* ${valueToDisplay}`}).join
 await conn.sendButtonMessages(m.chat, [
 [formattedData.title, packname, bestItem.image || logo, [
 ], null, [
-['Ver Canal', canal]
-],
 [["Ver Lista", formattedData.rows]]
 ]], m)
 
