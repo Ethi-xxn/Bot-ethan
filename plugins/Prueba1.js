@@ -53,7 +53,9 @@ const valueToDisplay = key === 'views' ? new Intl.NumberFormat('en', { notation:
 return ` ${emojiMap[key] || '🔹'} *${formattedKey}:* ${valueToDisplay}`}).join('\n')
 
 await conn.sendButtonMessages(m.chat, [
-[formattedData.title, packname, bestItem.image || logo, null, [
+[formattedData.title, packname, bestItem.image || logo, [
+['video', usedPrefix + `ytv ${bestItem.url}`], ['Doc.mp3', usedPrefix + `ytadoc ${bestItem.url}`], ['Doc.mp4', usedPrefix + `ytdoc ${bestItem.url}`]
+], null, [
 ['Ver Canal', canal]
 ],
 [["Ver Lista", formattedData.rows]]
