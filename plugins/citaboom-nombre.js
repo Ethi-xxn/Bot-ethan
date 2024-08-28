@@ -1,3 +1,74 @@
 //Codígo creado por David Chian wa.me/5351524614
 
-const _0x5a08e8=_0xd652;(function(_0x4ca8a6,_0x2958ac){const _0x1c3f67=_0xd652,_0x4ecda9=_0x4ca8a6();while(!![]){try{const _0x413df9=parseInt(_0x1c3f67(0x14d))/0x1+-parseInt(_0x1c3f67(0x14a))/0x2*(parseInt(_0x1c3f67(0x137))/0x3)+parseInt(_0x1c3f67(0x13d))/0x4+-parseInt(_0x1c3f67(0x13c))/0x5*(parseInt(_0x1c3f67(0x14f))/0x6)+-parseInt(_0x1c3f67(0x134))/0x7*(-parseInt(_0x1c3f67(0x132))/0x8)+-parseInt(_0x1c3f67(0x14e))/0x9+parseInt(_0x1c3f67(0x12a))/0xa*(parseInt(_0x1c3f67(0x138))/0xb);if(_0x413df9===_0x2958ac)break;else _0x4ecda9['push'](_0x4ecda9['shift']());}catch(_0x22249c){_0x4ecda9['push'](_0x4ecda9['shift']());}}}(_0x77c6,0x75667));function _0x77c6(){const _0x4ef14c=['sendButton','parse','𝑷𝒐𝒓\x20𝒇𝒂𝒗𝒐𝒓,\x20𝒊𝒏𝒈𝒓𝒆𝒔𝒂\x20𝒖𝒏\x20𝒏𝒐𝒎𝒃𝒓𝒆\x20𝒗𝒂𝒍𝒊𝒅𝒐\x20𝒖𝒔𝒂𝒏𝒅𝒐\x20𝒆𝒍\x20𝒇𝒐𝒓𝒎𝒂𝒕𝒐:\x20/nombre\x20TuNombre','stringify','./package.json','4286ORqsMW','𝑻𝒖\x20𝒏𝒐𝒎𝒃𝒓𝒆\x20*','readFileSync','235969NGyQPm','3408525DgjeHq','90798dSZQOZ','Megumin-Bot-MD','env','3062740EHyBso','nombre','*\x20𝒉𝒂\x20𝒔𝒊𝒅𝒐\x20𝒄𝒐𝒏𝒇𝒊𝒈𝒖𝒓𝒂𝒅𝒐\x20𝒄𝒐𝒏\x20𝒆𝒙𝒊𝒕𝒐.\x20𝑨𝒉𝒐𝒓𝒂,\x20𝒄𝒐𝒏𝒇𝒊𝒈𝒖𝒓𝒂\x20𝒕𝒖\x20𝒆𝒅𝒂𝒅.','register','chat','private','git+https://github.com/David-Chian/Megumin-Bot-MD.git','Error\x20al\x20leer\x20package.json:','1288ecefCO','bannuser','32473rxFIvu','sender','𝑷𝒓𝒊𝒎𝒆𝒓𝒐\x20𝒖𝒔𝒂\x20𝒆𝒍\x20𝒄𝒐𝒎𝒂𝒏𝒅𝒐\x20*/citaboom*𝒑𝒂𝒓𝒂\x20𝒄𝒓𝒆𝒂𝒓\x20𝒕𝒖\x20𝒑𝒆𝒓𝒇𝒊𝒍.','591PHXRDP','22eiyHCm','utf-8','repository','Configurar\x20Edad\x20🎂','240YnQdVz','1651020cJqVhj','49rof384foerAlkkO4KF4Tdfoflw','error','reply','SECRET_KEY','config','find','trim'];_0x77c6=function(){return _0x4ef14c;};return _0x77c6();}import _0x4a3ffe from'fs';const profilesPath='./citaperfiles.json';import _0x69500d from'dotenv';_0x69500d[_0x5a08e8(0x142)]();const SECRET_KEY=process[_0x5a08e8(0x151)][_0x5a08e8(0x141)],loadProfiles=()=>{const _0x25193d=_0x5a08e8;try{let _0x16a1dc=_0x4a3ffe[_0x25193d(0x14c)](profilesPath,_0x25193d(0x139));return JSON[_0x25193d(0x146)](_0x16a1dc);}catch(_0x498d26){return console['error']('Error\x20al\x20cargar\x20perfiles:',_0x498d26),[];}},saveProfiles=_0x128041=>{const _0x302781=_0x5a08e8;try{_0x4a3ffe['writeFileSync'](profilesPath,JSON[_0x302781(0x148)](_0x128041,null,0x2));}catch(_0x59e75e){console[_0x302781(0x13f)]('Error\x20al\x20guardar\x20perfiles:',_0x59e75e);}},isUserBanned=(_0x30b35d,_0x269270)=>{const _0x29dcce=_0x5a08e8,_0x397001=_0x269270['find'](_0x407900=>_0x407900['id']===_0x30b35d);return _0x397001?_0x397001[_0x29dcce(0x133)]:![];},verifi=()=>{const _0x360edb=_0x5a08e8;try{const _0x21e43c=JSON['parse'](_0x4a3ffe[_0x360edb(0x14c)](_0x360edb(0x149),_0x360edb(0x139)));if(_0x21e43c['name']!==_0x360edb(0x150))return![];if(_0x21e43c[_0x360edb(0x13a)]['url']!==_0x360edb(0x130))return![];if(SECRET_KEY!==_0x360edb(0x13e))return![];return!![];}catch(_0x4d160e){return console['error'](_0x360edb(0x131),_0x4d160e),![];}};let handler=async(_0x23a96,{conn:_0x31378d,text:_0x4b4e15})=>{const _0x5808c2=_0x5a08e8;if(!verifi()){await _0x31378d[_0x5808c2(0x140)](_0x23a96[_0x5808c2(0x12e)],'Este\x20comando\x20solo\x20está\x20disponible\x20para\x20Megumin\x20Bot.\x0a\x20🔥\x20https://github.com/David-Chian/Megumin-Bot-MD',_0x23a96,rcanal);return;}let _0x23aa09=loadProfiles();if(isUserBanned(_0x23a96[_0x5808c2(0x135)],_0x23aa09))return await _0x31378d[_0x5808c2(0x140)](_0x23a96[_0x5808c2(0x12e)],'🚫\x20Lo\x20sentimos,\x20pero\x20has\x20sido\x20baneado\x20y\x20no\x20puedes\x20usar\x20más\x20este\x20comando.\x0aSi\x20crees\x20que\x20esto\x20es\x20un\x20error\x20contacta\x20con\x20mi\x20creador.',_0x23a96,rcanal);let _0x354409=loadProfiles(),_0x22705c=_0x354409[_0x5808c2(0x143)](_0x58fe78=>_0x58fe78['id']===_0x23a96['sender']);if(!_0x22705c){await _0x31378d[_0x5808c2(0x140)](_0x23a96[_0x5808c2(0x12e)],_0x5808c2(0x136),_0x23a96,rcanal);return;}if(!_0x4b4e15){await _0x31378d['reply'](_0x23a96[_0x5808c2(0x12e)],_0x5808c2(0x147),_0x23a96,rcanal);return;}_0x22705c[_0x5808c2(0x12b)]=_0x4b4e15[_0x5808c2(0x144)](),saveProfiles(_0x354409),await _0x31378d[_0x5808c2(0x145)](_0x23a96[_0x5808c2(0x12e)],_0x5808c2(0x14b)+_0x22705c[_0x5808c2(0x12b)]+_0x5808c2(0x12c),wm,null,[[_0x5808c2(0x13b),'/edadcita']],_0x23a96);};function _0xd652(_0x52ade2,_0x138f93){const _0x77c65b=_0x77c6();return _0xd652=function(_0xd6524a,_0x284adc){_0xd6524a=_0xd6524a-0x12a;let _0x336658=_0x77c65b[_0xd6524a];return _0x336658;},_0xd652(_0x52ade2,_0x138f93);}handler[_0x5a08e8(0x12d)]=!![],handler[_0x5a08e8(0x12f)]=!![],handler['command']=/^nombrecita|nombre|nbc$/i;export default handler;
+import _0x4a3ffe from 'fs';
+import _0x69500d from 'dotenv';
+_0x69500d.config();
+const SECRET_KEY = process.env.SECRET_KEY;
+const loadProfiles = () => {
+  try {
+    let _0x16a1dc = _0x4a3ffe.readFileSync('./citaperfiles.json', "utf-8");
+    return JSON.parse(_0x16a1dc);
+  } catch (_0x498d26) {
+    console.error("Error al cargar perfiles:", _0x498d26);
+    return [];
+  }
+};
+const saveProfiles = _0x128041 => {
+  try {
+    _0x4a3ffe.writeFileSync('./citaperfiles.json', JSON.stringify(_0x128041, null, 0x2));
+  } catch (_0x59e75e) {
+    console.error("Error al guardar perfiles:", _0x59e75e);
+  }
+};
+const isUserBanned = (_0x30b35d, _0x269270) => {
+  const _0x397001 = _0x269270.find(_0x407900 => _0x407900.id === _0x30b35d);
+  return _0x397001 ? _0x397001.bannuser : false;
+};
+const verifi = () => {
+  try {
+    const _0x21e43c = JSON.parse(_0x4a3ffe.readFileSync("./package.json", "utf-8"));
+    if (_0x21e43c.name !== "Megumin-Bot-MD") {
+      return false;
+    }
+    if (_0x21e43c.repository.url !== "git+https://github.com/David-Chian/Megumin-Bot-MD.git") {
+      return false;
+    }
+    if (SECRET_KEY !== "49rof384foerAlkkO4KF4Tdfoflw") {
+      return false;
+    }
+    return true;
+  } catch (_0x4d160e) {
+    console.error("Error al leer package.json:", _0x4d160e);
+    return false;
+  }
+};
+let handler = async (_0x23a96, {
+  conn: _0x31378d,
+  text: _0x4b4e15
+}) => {
+  if (!verifi()) {
+    await _0x31378d.reply(_0x23a96.chat, "Este comando solo está disponible para Megumin Bot.\n 🔥 https://github.com/David-Chian/Megumin-Bot-MD", _0x23a96, rcanal);
+    return;
+  }
+  let _0x23aa09 = loadProfiles();
+  if (isUserBanned(_0x23a96.sender, _0x23aa09)) {
+    return await _0x31378d.reply(_0x23a96.chat, "🚫 Lo sentimos, pero has sido baneado y no puedes usar más este comando.\nSi crees que esto es un error contacta con mi creador.", _0x23a96, rcanal);
+  }
+  let _0x354409 = loadProfiles();
+  let _0x22705c = _0x354409.find(_0x58fe78 => _0x58fe78.id === _0x23a96.sender);
+  if (!_0x22705c) {
+    await _0x31378d.reply(_0x23a96.chat, "𝑷𝒓𝒊𝒎𝒆𝒓𝒐 𝒖𝒔𝒂 𝒆𝒍 𝒄𝒐𝒎𝒂𝒏𝒅𝒐 */citaboom*𝒑𝒂𝒓𝒂 𝒄𝒓𝒆𝒂𝒓 𝒕𝒖 𝒑𝒆𝒓𝒇𝒊𝒍.", _0x23a96, rcanal);
+    return;
+  }
+  if (!_0x4b4e15) {
+    await _0x31378d.reply(_0x23a96.chat, "𝑷𝒐𝒓 𝒇𝒂𝒗𝒐𝒓, 𝒊𝒏𝒈𝒓𝒆𝒔𝒂 𝒖𝒏 𝒏𝒐𝒎𝒃𝒓𝒆 𝒗𝒂𝒍𝒊𝒅𝒐 𝒖𝒔𝒂𝒏𝒅𝒐 𝒆𝒍 𝒇𝒐𝒓𝒎𝒂𝒕𝒐: /nombre TuNombre", _0x23a96, rcanal);
+    return;
+  }
+  _0x22705c.nombre = _0x4b4e15.trim();
+  saveProfiles(_0x354409);
+  await _0x31378d.sendButton(_0x23a96.chat, "𝑻𝒖 𝒏𝒐𝒎𝒃𝒓𝒆 *" + _0x22705c.nombre + "* 𝒉𝒂 𝒔𝒊𝒅𝒐 𝒄𝒐𝒏𝒇𝒊𝒈𝒖𝒓𝒂𝒅𝒐 𝒄𝒐𝒏 𝒆𝒙𝒊𝒕𝒐. 𝑨𝒉𝒐𝒓𝒂, 𝒄𝒐𝒏𝒇𝒊𝒈𝒖𝒓𝒂 𝒕𝒖 𝒆𝒅𝒂𝒅.", wm, null, [["Configurar Edad 🎂", '/edadcita']], _0x23a96);
+};
+handler.register = true;
+handler["private"] = true;
+handler.command = /^nombrecita|nombre|nbc$/i;
+export default handler;
