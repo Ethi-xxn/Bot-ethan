@@ -8,7 +8,7 @@ if (!text) return m.reply(`> Ejemplo: ${usedPrefix + command} hislerim`)
 const { all: [bestItem, ...moreItems] } = await ytSearch(text)
 const videoItems = moreItems.filter(item => item.type === 'video')
 const formattedData = {
-title: `\`[ YOUTUBE - SEARCH ]\`\n\n> Lo más popular de: *${text}*\n> 🤍 \*`Titulo :\`* ${bestItem.title}\n*🔗URL:* ${bestItem.url}\n*🕒Duración:* ${bestItem.timestamp}\n\n\`Se muestran más resultados en Ver Lista...\``,
+title: `\`[ YOUTUBE - SEARCH ]\`\n\n> Lo más popular de: *${text}*\n> 🤍 \`Titulo :\`* ${bestItem.title}\n*🔗URL:* ${bestItem.url}\n*🕒Duración:* ${bestItem.timestamp}\n\n\`Se muestran más resultados en Ver Lista...\``,
 rows: [{
 title: "YT",
 highlight_label: "Popular",
