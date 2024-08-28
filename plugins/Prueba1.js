@@ -27,7 +27,7 @@ description
 }, index) => ({
 header: `${index + 1}). ${title}`,
 id: `.ytmp4 ${url}`,
-title: timestamp,
+title: author,
 description: ""
 }))
 }]
