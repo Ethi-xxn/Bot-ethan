@@ -66,5 +66,9 @@ conn.reply(m.chat, `Ocurrió un error.${error}`, m)
 }
 }
 
-handler.command = ['test7']
+handler.help = ['ytsearch *<text>*']
+handler.tags = ['dl']
+handler.command = /^playlist|ytbuscar|yts(earch)?$/i
+handler.register = true
+handler.estrellas = 2
 export default handler
