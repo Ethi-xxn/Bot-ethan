@@ -47,7 +47,7 @@
 ---
 
 ### **`🖥️ TERMUX APK`**
-<a href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125px"></a>
+<a href="https://dash.corinplus.com"><img src="https://telegra.ph/file/071122086be2d010938a2.jpg" height="125px"></a>
 
 <details>
  <summary><b> 🦎 Comandos</b></summary>
