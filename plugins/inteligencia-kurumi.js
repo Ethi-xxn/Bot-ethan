@@ -19,7 +19,7 @@ contextInfo: {
 externalAdReply: {
 title: '[ 𝗔 𝗜 - 𝗞 𝗨 𝗥 𝗨 𝗠 𝗜 ]',
 body: '©𝟐𝟎𝟐𝟒 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐨-𝐎𝐅𝐂',
-thumbnailUrl: 'https://tinyurl.com/2a4dl2e4',
+thumbnailUrl: 'https://tinyurl.com/245mnfeh',
 sourceUrl: canal,
 mediaType: 1,
 renderLargerThumbnail: true
