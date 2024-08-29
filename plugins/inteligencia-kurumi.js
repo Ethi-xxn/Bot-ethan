@@ -14,7 +14,7 @@ let handler = async (m, {
     try {
         const result = await chatAi(text);
 await conn.sendMessage(m.chat, {
-text: `${gyh.result}`,
+text: `${result}`,
 contextInfo: {
 externalAdReply: {
 title: 'Hatsume Miku - C.ai',
