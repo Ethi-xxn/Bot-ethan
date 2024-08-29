@@ -5,7 +5,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   conn.tekateki = conn.tekateki ? conn.tekateki : {};
   const id = m.chat;
   if (id in conn.tekateki) {
-    conn.reply(m.chat, 'Todavía hay preguntas sin responder en este chat', conn.tekateki[id][0]);
+    conn.reply(m.chat, 'Todavía hay películas sin responder en este chat', conn.tekateki[id][0]);
     throw false;
   }
   const tekateki = JSON.parse(fs.readFileSync(`./src/game/cultura_general.json`));
@@ -24,7 +24,7 @@ const handler = async (m, {conn, usedPrefix}) => {
       delete conn.tekateki[id];
     }, timeout)];
 };
-handler.help = ['paises'];
+handler.help = ['peliculas'];
 handler.tags = ['game'];
 handler.command = /^(culturageneral)$/i;
 export default handler;
