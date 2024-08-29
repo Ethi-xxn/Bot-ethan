@@ -9,7 +9,7 @@ if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
-let estado = `\`乂  S C R I P T  -  M A I N\`
+let estado = `\`乂 S C R I P T  -  B O T\`
 
 \`\`\`Te gusta nuestro Bot te invito a dejarnos una estrella a nuestro repositorio para seguir mejorando nuestro Bot ☕\`\`\`
 `
