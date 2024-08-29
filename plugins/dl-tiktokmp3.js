@@ -1,4 +1,4 @@
-let { tiktok } = require('api-dylux')
+import { tiktok } from 'api-dylux;
 
 let handler = async (m, { conn, text, command }) => {
   if (!text) return conn.reply(m.chat, `• *Example :* .${command} https://vm.tiktok.com/xxxxx`, m)
