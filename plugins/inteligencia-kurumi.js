@@ -13,17 +13,18 @@ let handler = async (m, {
     await m.react('♣️');
     try {
         const result = await chatAi(text);
-await conn.sendMessage(m.chat, {
-text: result,
-contextInfo: {
-externalAdReply: {
-title: 'Hatsume Miku - C.ai',
-body: 'E L A I N A  M U L T I D E V I C E',
-thumbnailUrl: 'https://telegra.ph/file/1d84cf5157bffd783a2fd.jpg',
-sourceUrl: 'https://whatsapp.com/channel/0029VaF8RYn9WtC16ecZws0H',
-mediaType: 1,
-renderLargerThumbnail: true, 
-showAdAttribution: true}})
+ await conn.sendMessage(m.chat, {
+        text: result,
+        contextInfo: {
+        externalAdReply: {
+        title: '𝐆𝐞𝐧𝐞𝐬𝐢𝐬𝐁𝐨𝐭-𝐌𝐃',
+        body: '©𝟐𝟎𝟐𝟒 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐨-𝐎𝐅𝐂',
+        thumbnailUrl: img,
+        sourceUrl: global.canal,
+        mediaType: 1,
+        renderLargerThumbnail: true
+        }}},
+        { quoted: m})
     } catch (error) {
         await m.react('😅');
     }
