@@ -26,4 +26,4 @@ handler.tags = ['ai'];
 handler.command = ['hanako'];
 handler.limit = true;
 
-module.exports = handler;
+export default handler;
