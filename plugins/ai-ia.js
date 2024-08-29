@@ -133,7 +133,7 @@ sourceUrl: 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'}}},
 { quoted: m})
 }
 
-if (command == 'copilot' || command == 'bing') {
+if (command == 'copilot' || command == 'bingia') {
 let gpt = await fetch(`https://deliriusapi-official.vercel.app/ia/bingia?query=${text}`)
 let res = await gpt.json()
 await m.react('😼');
