@@ -17,7 +17,7 @@ await conn.sendMessage(m.chat, {
 text: result,
 contextInfo: {
 externalAdReply: {
-title: '𝐆𝐞𝐧𝐞𝐬𝐢𝐬𝐁𝐨𝐭-𝐌𝐃',
+title: '𝑲𝒖𝒓𝒖𝒎𝒊 - 𝑨𝑰',
 body: '©𝟐𝟎𝟐𝟒 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐨-𝐎𝐅𝐂',
 thumbnailUrl: 'https://tinyurl.com/2a4dl2e4',
 sourceUrl: canal,
