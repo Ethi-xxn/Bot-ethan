@@ -1,4 +1,4 @@
-let { tiktok } = from('api-dylux')
+import { ttdl } from 'ruhend-scraper';
 
 let handler = async (m, { conn, text, command }) => {
   if (!text) return conn.reply(m.chat, `• *Example :* .${command} https://vm.tiktok.com/xxxxx`, m)
