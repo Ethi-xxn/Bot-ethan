@@ -16,4 +16,4 @@ handler.command = /^(tiktokmp3|ttmp3|tiktokaudio)$/i;
 handler.limit = true;
 handler.group = false;
 
-module.exports = handler;
+export default handler;
