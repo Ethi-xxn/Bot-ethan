@@ -1,18 +1,21 @@
-import { ttdl } from 'ruhend-scraper';
+var fetch = require("node-fetch")
 
-let handler = async (m, { conn, text, command }) => {
-  if (!text) return conn.reply(m.chat, `• *Example :* .${command} https://vm.tiktok.com/xxxxx`, m)
-  conn.sendMessage(m.chat, { react: { text: '🕐', key: m.key }})
-  let res = await conn.sendFile(m.chat, {
-  audio: { url: `${res.result.music}` },
-  mimetype: 'audio/mpeg'
-  },{quoted: m})
-  return
+var handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text) return conn.reply(m.chat, `• *Example :* ${usedPrefix + command} loli kawai`, m)
+  conn.sendMessage(m.chat, { react: { text: "🕒", key: m.key } });
+  try {
+  var kemii = await fetch(`https://api.lolhuman.xyz/api/pixiv?apikey=${global.lolkey}&query=${text}`)
+  var res = await kemii.json()
+  var name = m.sender
+  conn.sendFile(m.chat, res.result[0].image, '', done, m)
+  } catch (e) {
+    console.log(e);
+    m.reply(`Failed to search ${text}`);
+  }
 }
-handler.help = ['tiktokmp3 *<url>*'];
-handler.tags = ['downloader'];
-handler.command = /^(tiktokmp3|ttmp3|tiktokaudio)$/i;
-handler.limit = true;
-handler.group = false;
 
+handler.help = ['pixiv'].map(v => v + ' *<teks>*')
+handler.command = /^(pixiv)$/i  
+handler.tags = ['internet']
+handler.limit = true
 export default handler;
