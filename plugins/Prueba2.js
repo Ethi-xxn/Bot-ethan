@@ -1,37 +1,23 @@
 import fetch from 'node-fetch';
 
-let handler = async (m, { conn, text, args, usedPrefix, command }) => {
-  try {
-    if (!text) throw 'uhm.. what do you want to say?';
-    await m.react('🤖');
-    let username = m.sender.split('@')[0];
-    const prompt = encodeURIComponent(text);
-    let apiurl = `https://gpt4.guruapi.tech/bing?username=${username}&query=${prompt}`;
+let handler = async (m, { conn, text }) => {
+    if (!text) throw m.reply('how can I assist you today?')
+    try {
+        conn.reply(m.chat, `_Please wait! This process may take up to several minutes._`, m);
+        let data = await fetch(`https://api.ibeng.tech/api/ai/bingcreate?q=${text}&apikey=uYmf6Sgjxl`);
+        let json = await data.json();
+        let results = await json.result;
+        if (!results || results.length === 0) throw 'No results found.';
 
-    const result = await fetch(apiurl);
-    const response = await result.json();
-
-    if (!response.result) throw 'No result found';
-
-    const replyText = response.result;
-    await conn.sendButton(
-      m.chat, 
-      replyText, 
-      author, 
-      'https://techcrunch.com/wp-content/uploads/2023/11/microsoft-copilot-bing.jpg', 
-      [['Go with Gpt', `.gpt ${text}`]], 
-      null, 
-      [['Follow Me', `https://github.com/Guru322`]], 
-      m
-    );
-  } catch (error) {
-    console.error(error);
-    m.reply('Oops! Something went wrong. We are trying hard to fix it ASAP.');
-  }
+        let links = results.map((link, index) => `*(${index + 1}).* [${link}]`).join('\n');
+        conn.sendFile(m.chat, results[0], 'bing.png', `*The following are the results of a search with the query:*\n_${text}_\n\n*Following are the photo links generated from Bing AI:*\n${links}\n\n\n*How to retrieve media using the link above:*\n_.get <link>_\n*Example:*\n_.get ${results.getRandom()}_`, m);
+    } catch (err) {
+        m.reply('Error: ' + err.reason);
+    }
 };
 
-handler.help = ['bing <text>'];
-handler.tags = ['tools'];
-handler.command = /^(bing5)$/i;
+handler.command = handler.help = ['bing'];
+handler.tags = ['ai'];
+handler.premium = true 
 
 export default handler;
