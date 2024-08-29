@@ -1,4 +1,4 @@
-let fetch = require('node-fetch')
+import fetch from 'node-fetch';
 
 let handler = async (m, { conn,  text, usedPrefix, command }) => {
 	if (!text) return conn.reply(m.chat, `[❗] *Penggunaan:* ${usedPrefix + command} <name>`, m)
@@ -14,4 +14,4 @@ handler.help = ['happymod']
 handler.tags = ['dl']
 handler.command = /^(happymod)$/i
 
-module.exports = handler
+export default handler;
