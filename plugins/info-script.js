@@ -14,7 +14,7 @@ let estado = `乂  S C R I P T  -  M A I N
 *Te gusta nuestro Bot te invito a dejarnos una estrella a nuestro repositorio para seguir mejorando nuestro Bot ☕*
 `
 await conn.sendButton(m.chat, estado, '@usxr_angelito0', pp, [
-['DUEÑO 🤍', '.owner']], null, [['GIT HUB 🤍', `${github}`]], m)
+['DUEÑO 🤍', '.owner']], null, [['GIT HUB 🤍', `https://github.com/Angelito-OFC/GenesisBot-MD`]], m)
 }
 handler.help = ['script']
 handler.tags = ['info']
