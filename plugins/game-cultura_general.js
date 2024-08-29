@@ -26,5 +26,5 @@ const handler = async (m, {conn, usedPrefix}) => {
 };
 handler.help = ['paises'];
 handler.tags = ['game'];
-handler.command = /^(preguntas)$/i;
+handler.command = /^(culturageneral)$/i;
 export default handler;
