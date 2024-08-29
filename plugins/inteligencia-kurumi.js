@@ -13,18 +13,18 @@ let handler = async (m, {
     await m.react('♣️');
     try {
         const result = await chatAi(text);
- await conn.sendMessage(m.chat, {
-        text: result,
-        contextInfo: {
-        externalAdReply: {
-        title: '𝐆𝐞𝐧𝐞𝐬𝐢𝐬𝐁𝐨𝐭-𝐌𝐃',
-        body: '©𝟐𝟎𝟐𝟒 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐨-𝐎𝐅𝐂',
-        thumbnailUrl: img,
-        sourceUrl: global.canal,
-        mediaType: 1,
-        renderLargerThumbnail: true
-        }}},
-        { quoted: m})
+await conn.sendMessage(m.chat, {
+text: result,
+contextInfo: {
+externalAdReply: {
+title: '𝐆𝐞𝐧𝐞𝐬𝐢𝐬𝐁𝐨𝐭-𝐌𝐃',
+body: '©𝟐𝟎𝟐𝟒 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐨-𝐎𝐅𝐂',
+thumbnailUrl: icons,
+sourceUrl: canal,
+mediaType: 1,
+renderLargerThumbnail: true
+}}},
+{ quoted: m})
     } catch (error) {
         await m.react('😅');
     }
