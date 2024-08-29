@@ -16,9 +16,9 @@ let estado = `乂  S C R I P T  -  M A I N
 await conn.sendButton(m.chat, estado, '@usxr_angelito0', pp, [
 ['DUEÑO 🤍', '.owner']], null, [['GIT HUB 🤍', `${repositorio}`]], m)
 }
-handler.help = ['grupos']
+handler.help = ['script']
 handler.tags = ['info']
-handler.command = /^(grupos|groups|support?)$/i
+handler.command = /^(sc|script|Repositorio?)$/i
 
 export default handler
 
