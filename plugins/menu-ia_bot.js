@@ -186,19 +186,8 @@ let img = 'https://i.ibb.co/8g5yZr5/file.jpg'
  let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 await m.react('☕') 
 
- conn.sendMessage(m.chat, {
-        text: text,
-        contextInfo: {
-        externalAdReply: {
-        title: '𝐆𝐞𝐧𝐞𝐬𝐢𝐬𝐁𝐨𝐭-𝐌𝐃',
-        body: '©𝟐𝟎𝟐𝟒 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐨-𝐎𝐅𝐂',
-        thumbnailUrl: img,
-        sourceUrl: global.canal,
-        mediaType: 1,
-        renderLargerThumbnail: true
-        }}},
-        { quoted: estilo})
-
+await conn.sendButton(m.chat, text, '@usxr_angelito0', img, [
+['DUEÑO 🤍', '.owner'], ['DONAR 🫧', '.donate']], null, [['CANAL 🐈‍⬛', `${canal}`]], m)}
   } catch (e) {
     conn.reply(m.chat, 'Lo siento, el menú tiene un error.', m)
     throw e
