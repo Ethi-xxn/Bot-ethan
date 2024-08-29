@@ -19,7 +19,7 @@ contextInfo: {
 externalAdReply: {
 title: '𝐆𝐞𝐧𝐞𝐬𝐢𝐬𝐁𝐨𝐭-𝐌𝐃',
 body: '©𝟐𝟎𝟐𝟒 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐨-𝐎𝐅𝐂',
-thumbnailUrl: icons,
+thumbnailUrl: 'https://telegra.ph/file/1d84cf5157bffd783a2fd.jpg',
 sourceUrl: canal,
 mediaType: 1,
 renderLargerThumbnail: true
