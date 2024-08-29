@@ -1,32 +1,38 @@
-import fetch from 'node-fetch'
+import fetch from 'node-fetch';
 
-let gitagptHandler = async (m, { text, usedPrefix, command }) => {
-  if (!text && !(m.quoted && m.quoted.text)) {
-    throw `Please provide some text or quote a message to get a response. Keep in mind that GitaGPT is still in the testing phase, so it may generate inaccurate responses at times.`
-  }
-
-  if (!text && m.quoted && m.quoted.text) {
-    text = m.quoted.text
-  }
-
+let handler = async (m, { conn, text, args, usedPrefix, command }) => {
   try {
-    conn.sendPresenceUpdate('composing', m.chat)
-    const prompt = encodeURIComponent(text)
-    const endpoint = `https://ultimetron.guruapi.tech/gita?prompt=${prompt}`
+    if (!text) throw 'uhm.. what do you want to say?';
+    await m.react('🤖');
 
-    const response = await fetch(endpoint)
-    const data = await response.json()
-    const result = data.completion
+    const prompt = encodeURIComponent(text);
+    let userid = conn.getName(m.sender) || "default"
+    let apiurl = `https://api.guruapi.tech/ai/gpt4?username=${userid}&query=hii${prompt}`;
 
-    m.reply(result)
+    const result = await fetch(apiurl);
+    const response = await result.json();
+
+    if (!response.msg) throw 'No result found';
+
+    const replyText = response.msg;
+    await conn.sendButton(
+      m.chat, 
+      replyText, 
+      author, 
+      'https://telegra.ph/file/c3f9e4124de1f31c1c6ae.jpg', 
+      [['Script', `.sc`]], 
+      null, 
+      [['Follow Me', `https://github.com/Guru322`]], 
+      m
+    );
   } catch (error) {
-    console.error('Error:', error)
-    throw `*ERROR*`
+    console.error(error);
+    m.reply('Oops! Something went wrong. We are trying hard to fix it ASAP.');
   }
-}
-gitagptHandler.help = ['gitagpt']
-gitagptHandler.tags = ['AI']
-gitagptHandler.command = ['gitagpt']
-gitagptHandler.diamond = false
+};
 
-export default gitagptHandler
+handler.help = ['gpt4 <text>'];
+handler.tags = ['tools'];
+handler.command = /^(gpt4)$/i;
+
+export default handler;
