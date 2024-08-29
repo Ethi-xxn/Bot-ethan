@@ -1,4 +1,4 @@
-var fetch = require("node-fetch")
+import fetch from 'node-fetch';
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) return conn.reply(m.chat, `• *Example :* ${usedPrefix + command} loli kawai`, m)
