@@ -3,7 +3,7 @@ import { ttdl } from 'ruhend-scraper';
 let handler = async (m, { conn, text, command }) => {
   if (!text) return conn.reply(m.chat, `• *Example :* .${command} https://vm.tiktok.com/xxxxx`, m)
   conn.sendMessage(m.chat, { react: { text: '🕐', key: m.key }})
-  let res = await conn.sendFile(m.chat, mp3, 'tiktok.mp3', dev, m);
+  let res = await conn.sendFile(m.chat, audio, 'audio/mpeg', dev, m);
 }
 handler.help = ['tiktokmp3 *<url>*'];
 handler.tags = ['downloader'];
