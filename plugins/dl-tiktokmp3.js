@@ -1,4 +1,4 @@
-import { tiktok } from 'api-dylux;
+let { tiktok } = from('api-dylux')
 
 let handler = async (m, { conn, text, command }) => {
   if (!text) return conn.reply(m.chat, `• *Example :* .${command} https://vm.tiktok.com/xxxxx`, m)
@@ -16,4 +16,4 @@ handler.command = /^(tiktokmp3|ttmp3|tiktokaudio)$/i;
 handler.limit = true;
 handler.group = false;
 
-export default handler;
+module.exports = handler;
