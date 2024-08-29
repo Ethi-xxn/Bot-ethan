@@ -32,6 +32,6 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 
 handler.help = ['bing <text>'];
 handler.tags = ['tools'];
-handler.command = /^(bing)$/i;
+handler.command = /^(bing5)$/i;
 
 export default handler;
