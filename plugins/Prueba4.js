@@ -23,7 +23,7 @@ conn.aihutao[m.sender] = true;
 
   await conn.sendMessage(m.chat, { react: { text: `✅`, key: m.key }});
 
-  let hasil = `[ A I  H U T A O ]\n\n${ini.result}`;
+  let hasil = `[ A I  H U T A O ]\n\n${ini}`;
   await conn.sendFile(m.chat, url, '', hasil, m);
 
   previousMessages = messages;
