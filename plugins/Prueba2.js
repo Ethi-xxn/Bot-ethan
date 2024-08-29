@@ -16,7 +16,7 @@ let handler = async (m, { conn, text }) => {
     }
 };
 
-handler.command = handler.help = ['bing'];
+handler.command = handler.help = ['bing7'];
 handler.tags = ['ai'];
 handler.premium = true 
 
