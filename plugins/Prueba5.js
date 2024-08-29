@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (!text) throw(`Contoh:\n${usedPrefix}${command} Halo?`);   
-  let ouh = await fetch(`https://api.yanzbotz.my.id/pricing/api/ai/characterai?text=${text}&name=Elaina`)
+  let ouh = await fetch(`https://api.yanzbotz.my.id/api/ai/gpt3?text=${text}&name=Elaina`)
   let gyh = await ouh.json() 
   await conn.sendMessage(m.chat, {
   text: `${gyh.result}`,
