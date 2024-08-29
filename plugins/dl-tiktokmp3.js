@@ -1,25 +1,19 @@
-let handler = async (m, { conn }) => {
-    const messages = conn.chats[m.chat].messages;
-    const participantCounts = {};
-    Object.values(messages).forEach(({ key }) =>
-        participantCounts[key.participant] = (participantCounts[key.participant] || 0) + 1
-    );
-    const sortedData = Object.entries(participantCounts)
-        .sort((a, b) => b[1] - a[1]);
-    const totalM = sortedData.reduce((acc, [, total]) => acc + total, 0);
-    const totalPeople = sortedData.length;
-    const pesan = sortedData
-        .map(([jid, total], index) => `*${index + 1}.* ${jid.replace(/(\d+)@.+/, '@$1')}: *${total}* pesan`)
-        .join('\n');
-    await conn.reply(m.chat, `📊 *Total Pesan Terakhir*: *${totalM}* pesan dari *${totalPeople}* orang\n\n${pesan}`, m, { contextInfo: {
-                mentionedJid: sortedData.map(([jid]) => jid)
-            }
-           }
-           )
+let { tiktok } = require('api-dylux')
+
+let handler = async (m, { conn, text, command }) => {
+  if (!text) return conn.reply(m.chat, `• *Example :* .${command} https://vm.tiktok.com/xxxxx`, m)
+  conn.sendMessage(m.chat, { react: { text: '🕐', key: m.key }})
+  let res = await tiktok(text)
+  await conn.sendMessage(m.chat, {
+  audio: { url: `${res.result.music}` },
+  mimetype: 'audio/mpeg'
+  },{quoted: m})
+  return
 }
-handler.help = ['totalpesan'];
-handler.tags = ['group'];
-handler.command = /^(totalpesan)$/i;
-handler.group = true;
+handler.help = ['tiktokmp3 *<url>*'];
+handler.tags = ['downloader'];
+handler.command = /^(tiktokmp3|ttmp3|tiktokaudio)$/i;
+handler.limit = true;
+handler.group = false;
 
 export default handler;
