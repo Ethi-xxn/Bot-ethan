@@ -12,7 +12,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const json = tekateki[Math.floor(Math.random() * tekateki.length)];
   const _clue = json.response;
   const clue = _clue.replace(/[A-Za-z]/g, '_');
-  const caption = `*${json.question}*
+  const caption = `${json.question}
 
 ⏱️ *Tiempo:* ${(timeout / 1000).toFixed(2)} Segundos
 🎁 *Premio:* *+${poin}* Estrellas 🌟`.trim();
