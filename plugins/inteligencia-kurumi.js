@@ -21,9 +21,6 @@ title: '[ 𝗔 𝗜 - 𝗞 𝗨 𝗥 𝗨 𝗠 𝗜 ]',
 body: '',
 thumbnailUrl: 'https://telegra.ph/file/1d84cf5157bffd783a2fd.jpg',
 sourceUrl: 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y',
-mediaType: 1,
-renderLargerThumbnail: true, 
-showAdAttribution: true
     } catch (error) {
         await m.react('😅');
     }
