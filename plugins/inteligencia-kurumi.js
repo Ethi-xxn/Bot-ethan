@@ -23,9 +23,7 @@ thumbnailUrl: 'https://telegra.ph/file/1d84cf5157bffd783a2fd.jpg',
 sourceUrl: 'https://whatsapp.com/channel/0029VaF8RYn9WtC16ecZws0H',
 mediaType: 1,
 renderLargerThumbnail: true, 
-showAdAttribution: true
-      }}
-  })}
+showAdAttribution: true})
     } catch (error) {
         await m.react('😅');
     }
