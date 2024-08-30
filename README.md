@@ -66,14 +66,6 @@
 
 </details>
 
-
-
-### Información del Host
-
-- **Dashboard:** [`Aquí`]()
-- **Panel:** [`Aquí`]()
-- **Canal de WhatsApp:** [`Aquí`]()
-
 ------------------  
 
 ### 🔵 OLYMPUS-HOST 
