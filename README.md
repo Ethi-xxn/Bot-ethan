@@ -95,6 +95,10 @@
 
 ---
 
+### ☁️ AGRADECIMIENTOS
+<a
+href="https://github.com/Diego-ofc"><img src="https://github.com/Diego-ofc.png" width="130" height="130" alt="Diego-ofc"/></a>
+
 ### ☁️ COLABORADORES
 
 <a href="https://github.com/ale-rmz"><img src="https://github.com/ale-rmz.png" width="100" height="100" alt="ale-rmz"/></a>
