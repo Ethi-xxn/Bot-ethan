@@ -68,15 +68,18 @@
 
 ------------------  
 
-### 🔵 OLYMPUS-HOST 
+### **`🔵 OLYMPUS-HOST`**  
 <a href="https://kingsvhost.asifofc.xyz"><img src="https://qu.ax/waCu.jpg" height="125px"></a>
-### Información del Host
+
+<details>
+ <summary><b>:paperclip: Enlaces Importantes</b></summary>
 
 - **Dashboard:** [`Aquí`](https://dash.olympus-host.xyz)
 - **Panel:** [`Aquí`](https://dash.olympus-host.xyz)
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J)
 - **Correo:** [`Aquí`](olympussupport@gmail.com.com)
 
+</details>
 
 ------------------
 
