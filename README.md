@@ -46,37 +46,6 @@
 
 ---
 
-### **`🖥️ TERMUX APK`**
-<a href="https://dash.corinplus.com"><img src="https://telegra.ph/file/f74337cb95bc369ea3329.jpg" height="125px"></a>
-
-<details>
- <summary><b> 😼 Comandos</b></summary>
-
-[`☕ Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
-
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-
-```bash
-termux-setup-storage
-```
-```bash
-apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
-```
-```bash
-git clone https://github.com/Angelito-OFC/GenesisBot-MD && cd GenesisBot-MD
-```
-```bash
-yarn install && npm install
-```
-```bash
-npm start
-```
-
-> Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
-</details>
-
----
-
 #### 🟢 ACTIVAR EN CODES SPACES 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/YaemoriBot-MD&ref=main&geo=UsEast)
 
