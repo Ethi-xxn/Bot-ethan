@@ -54,7 +54,7 @@
 
 ------------------
 
-### 👾 AZURA ULTRA
+### **`👾 AZURA ULTRA`**
 <a href="https://store.azuraultra-host.pro/login"><img src="https://qu.ax/ewVT.jpg" height="125px"></a>
 
 <details>
