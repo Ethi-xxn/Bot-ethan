@@ -53,6 +53,29 @@
 </details>
 
 ---
+------------------
+
+### 👾 AZURA ULTRA
+<a href="https://store.azuraultra-host.pro/login"><img src="https://qu.ax/ewVT.jpg" height="125px"></a>
+### Información del Host
+
+- **Dashboard:** [`Aquí`](https://control.azuraultra-host.pro/)
+- **Panel:** [`Aquí`](https://control.azuraultra-host.pro/)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VaWABAMG8l5K8K9PAB3v)
+
+------------------  
+
+### 🔵 OLYMPUS-HOST 
+<a href="https://kingsvhost.asifofc.xyz"><img src="https://qu.ax/waCu.jpg" height="125px"></a>
+### Información del Host
+
+- **Dashboard:** [`Aquí`](https://dash.olympus-host.xyz)
+- **Panel:** [`Aquí`](https://dash.olympus-host.xyz)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J)
+- **Correo:** [`Aquí`](olympussupport@gmail.com.com)
+
+
+------------------
 
 #### 🟢 ACTIVAR EN CODES SPACES 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/YaemoriBot-MD&ref=main&geo=UsEast)
@@ -66,16 +89,16 @@
 
 ---
 
-### 🌼 COLABORADORES
+### ☁️ COLABORADORES
 
 <a href="https://github.com/ale-rmz"><img src="https://github.com/ale-rmz.png" width="100" height="100" alt="ale-rmz"/></a>
 <a href="https://github.com/Maxz-on"><img src="https://github.com/Maxz-on.png" width="100" height="100" alt="Maxz-on"/></a>
 <a href="https://github.com/AkiraaX2"><img src="https://github.com/AkiraaX2.png" width="100" height="100" alt="AkiraaX2"/></a>
 
-### ✨ CREADOR 
+### 🤍 CREADOR 
 <a
 href="https://github.com/Angelito-OFC"><img src="https://github.com/Angelito-OFC.png" width="130" height="130" alt="Angelito"/></a>
 
 > Copyright (c) 2024 **[Angelito-OFC](https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y)**.
 
-**`¡GRACIAS POR PREFERIRNOS!` 🍟**
+**`¡GRACIAS POR PREFERIRNOS!` ☕**
