@@ -97,7 +97,7 @@
 
 ### ☁️ AGRADECIMIENTOS
 <a
-href="https://github.com/Diego-ofc"><img src="https://github.com/Diego-ofc.png" width="130" height="130" alt="Diego-ofc"/></a>
+href="https://github.com/Dev-Diego"><img src="https://github.com/Dev-Diego.png" width="130" height="130" alt="Dev-Diego"/></a>
 
 ### ☁️ COLABORADORES
 
