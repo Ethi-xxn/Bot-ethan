@@ -1,13 +1,13 @@
-> 🐈‍⬛ Versión Actual: 1.4.0
+> 🪻 Versión Actual: 1.0
 
-## 🤍 **`G E N E S I S - B O T`**
+## 🧃 **`U R I - B O T`**
 
-![Genesis](https://telegra.ph/file/d583ed593e71dc82e29e6.jpg)
+![uri](https://telegra.ph/file/d583ed593e71dc82e29e6.jpg)
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=300&size=37&duration=3000&pause=100&color=000000&background=601D6E00&center=true&vCenter=true&repeat=true&random=FALSO&width=660&height=90&lines=Angel-OFC+lanzó;Nueva+versión+Genesis Bot - 1.4.0;BY:+Titanium+Team+y+Angel-OFC." alt="Typing SVG"/></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=300&size=37&duration=3000&pause=100&color=000000&background=601D6E00&center=true&vCenter=true&repeat=true&random=FALSO&width=660&height=90&lines=ethan-+lanzó;Nueva+versión+uri Bot - 1.0;BY:+Titanium+Team+y+ethan-." alt="Typing SVG"/></a>
 </div>
 
-#### Creador: Angelito 🫅
+#### Creador: ethi 🙏🏻
 #### Realizado con: Titanium Team 🐈‍⬛
 
 ### CONTACTOS 💻
