@@ -88,26 +88,10 @@
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
 
-<a href="https://wa.me/59160262132?text=!menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://wa.me/+573177313653?text=!menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-> No Spam A La Bot!
+> No Spam al Bot!
 
 ---
-
-### ☁️ AGRADECIMIENTOS
-<a
-href="https://github.com/Dev-Diego"><img src="https://github.com/Dev-Diego.png" width="130" height="130" alt="Dev-Diego"/></a>
-
-### ☁️ COLABORADORES
-
-<a href="https://github.com/ale-rmz"><img src="https://github.com/ale-rmz.png" width="100" height="100" alt="ale-rmz"/></a>
-<a href="https://github.com/Maxz-on"><img src="https://github.com/Maxz-on.png" width="100" height="100" alt="Maxz-on"/></a>
-<a href="https://github.com/AkiraaX2"><img src="https://github.com/AkiraaX2.png" width="100" height="100" alt="AkiraaX2"/></a>
-
-### 🤍 CREADOR 
-<a
-href="https://github.com/Angelito-OFC"><img src="https://github.com/Angelito-OFC.png" width="130" height="130" alt="Angelito"/></a>
-
-> Copyright (c) 2024 **[Angelito-OFC](https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y)**.
 
 **`¡GRACIAS POR PREFERIRNOS!` ☕**
