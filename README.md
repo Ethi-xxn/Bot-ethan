@@ -1,10 +1,10 @@
 > 🪻 Versión Actual: 1.0
 
-## 🧃 **`U R I - B O T`**
+## 🧃 **`G O J O - B O T`**
 
 ![uri](https://telegra.ph/file/95aaad61aabfdc0979f27.jpg)
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=300&size=37&duration=3000&pause=100&color=000000&background=601D6E00&center=true&vCenter=true&repeat=true&random=FALSO&width=660&height=90&lines=ethan-+lanzó;Nueva+versión+uri Bot - 1.0;BY:+Titanium+Team+y+ethan-." alt="Typing SVG"/></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=300&size=37&duration=3000&pause=100&color=000000&background=601D6E00&center=true&vCenter=true&repeat=true&random=FALSO&width=660&height=90&lines=ethan-+lanzó;Nueva+versión+ G O J O Bot - 1.0;BY:+Titanium+Team+y+ethan-." alt="Typing SVG"/></a>
 </div>
 
 #### Creador: ethi 🙏🏻
@@ -15,7 +15,7 @@
 
 
 
-<a href="https://api.whatsapp.com/send/?phone=+573177313653&text=Hola 👋 soporte de U R I Bot &type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
+<a href="https://api.whatsapp.com/send/?phone=+573177313653&text=Hola ethan, dame mas informacion de Gojo bot&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
  <a href="https://www.instagram.com/ethi_xxn?igsh=MTJ1NTZteDlsdmh5Zg==" target="blank"><img src="https://img.shields.io/badge/Instagram-30302f?style=flat&logo=instagram" /></a>
  
 
