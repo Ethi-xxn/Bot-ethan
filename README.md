@@ -2,7 +2,7 @@
 
 ## 🧃 **`U R I - B O T`**
 
-![uri](https://telegra.ph/file/e79f49ec0e4a475b9e1d5.jpg)
+![uri](https://telegra.ph/file/95aaad61aabfdc0979f27.jpg)
 <div align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=300&size=37&duration=3000&pause=100&color=000000&background=601D6E00&center=true&vCenter=true&repeat=true&random=FALSO&width=660&height=90&lines=ethan-+lanzó;Nueva+versión+uri Bot - 1.0;BY:+Titanium+Team+y+ethan-." alt="Typing SVG"/></a>
 </div>
