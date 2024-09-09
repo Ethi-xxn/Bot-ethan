@@ -7,11 +7,10 @@ let user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { 
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let menu = `
-*@${m.sender.split("@")[0]}* 𝙏𝙀 𝘼𝘾𝘼𝘽𝘼𝙎 𝘿𝙀 𝘾𝙊𝙂𝙀𝙍 𝘼 𝙇𝘼 𝙋𝙐𝙏𝙄𝙏𝘼 𝘿𝙀 *${text}* 𝙈𝙄𝙀𝙉𝙏𝙍𝘼𝙎 𝙏𝙀 𝘿𝙀𝘾𝙄𝘼 " 𝙢𝙚𝙩𝙚𝙢𝙚𝙡𝙖 𝙙𝙪𝙧𝙤𝙤𝙤 𝙢𝙖́𝙨 𝙙𝙪𝙧𝙤𝙤𝙤 𝙦𝙪𝙚 𝙧𝙞𝙘𝙤 𝙥𝙞𝙩𝙤𝙩𝙚"...
-𝙏𝙚𝙣𝙚𝙢𝙤𝙨 𝙦𝙪𝙚 𝙫𝙤𝙡𝙫𝙚𝙧 𝙖 𝙨𝙪𝙙𝙖𝙧 𝙟𝙪𝙣𝙩𝙤𝙨!!
+*@${m.sender.split("@")[0]}* 𝙏𝙀 𝘼𝘾𝘼𝘽𝘼𝙎 𝘿𝙀 𝘾𝙊𝙂𝙀𝙍 𝘼 𝙇𝘼 𝙋𝙐𝙏𝙄𝙏𝘼 𝘿𝙀 *${text}* 𝙈𝙄𝙀𝙉𝙏𝙍𝘼𝙎 𝙏𝙀 𝘿𝙀𝘾𝙄𝘼 " MAS DURO PAPI, ASI ASI. METEMELA ENTERA QUE ME ENCANTA!!
 ━━━━━━━━━━━━━━━
 *${text}*
- 𝙏𝙀 𝘼𝘾𝘼𝘽𝘼𝙉 𝘿𝙀 𝘾𝙊𝙂𝙀𝙍.
+ TE ACABAN DE COGER COMO LA PUTA QUE ERES, AHORA TIENES QUE PAGAR UNA RECONSTRUCIÓN ANAL.
  💦💦🍆🍆💦💦
 
  `.trim()
