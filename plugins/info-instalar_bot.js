@@ -21,7 +21,7 @@ npm update
 
 npm start
 
-_Utilice "comandos" para enviarle los comandos uno por uno 🤍_
+_Utilice "comandos" para enviarle los comandos uno por uno 🐥_
 
 _Utilice ".olympus o .corinplus" para enviarle la instalación por cualquiera de los 2 *Hosting* 🤍_`
 
