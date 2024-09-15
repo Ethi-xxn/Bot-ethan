@@ -8,13 +8,13 @@ import fetch from 'node-fetch'
 const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
 
 const defaultMenu = {
-  before: `“𝐇𝐨𝐥𝐚 *%name* 𝐒𝐨𝐲 𝐆𝐞𝐧𝐞𝐬𝐢𝐬𝐁𝐨𝐭, 𝐓𝐞𝐧 𝐮𝐧 𝐛𝐮𝐞𝐧 𝐝𝐢𝐚"
+  before: `“𝐇𝐨𝐥𝐚 *%name* 𝐒𝐨𝐲 𝐆ojo, 𝐓𝐞𝐧 𝐮𝐧 𝐛𝐮𝐞𝐧 𝐝𝐢𝐚"
 
 ✧ ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬ ✧ 
 
  '︶꒦꒷♡꒷꒦︶.
 ┊✶ 𝐂𝐥𝐢𝐞𝐧𝐭𝐞: %name
-┊┊✶ 𝐁𝐨𝐭: Génesis Bot
+┊┊✶ 𝐁𝐨𝐭: Gojo-bot
 ┊┊✶ 𝐌𝐨𝐝𝐨: Público
 ┊┊✶ 𝐅𝐞𝐜𝐡𝐚: ${fecha}
 ┊┊✶ 𝐔𝐬𝐞𝐫𝐬: %totalreg
