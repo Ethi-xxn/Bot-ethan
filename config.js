@@ -14,8 +14,8 @@ global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
-['59168683798', 'Angel-OFC ☁️', true],
-['59897246324', 'Asistencia ☁️', true],
+['573172697479', 'Tantan', true],
+['573172697479', '', true],
 [''],
 [''],
 [''],
@@ -26,9 +26,9 @@ global.prems = []
 global.mods = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '𝗚𝗲𝗻𝗲𝘀𝗶𝘀 𝗕𝗼𝘁 𝗣𝗿𝗼'
-global.author = '@usxr_angelito0'
-global.wm = '𝗚𝗲𝗻𝗲𝘀𝗶𝘀 𝗣𝗿𝗼'
+global.packname = 'gojo bot'
+global.author = '@ethi_xxn'
+global.wm = 'Gojo bot'
 global.titulowm = 'GenesisBot-Pro 🤍'
 global.titulowm2 = ''
 global.igfg = '@usxr_angelito0'
