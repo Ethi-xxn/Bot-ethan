@@ -29,7 +29,7 @@ global.mods = []
 global.packname = 'gojo bot'
 global.author = '@ethi_xxn'
 global.wm = 'Gojo bot'
-global.titulowm = 'G𝐆𝐨𝐣𝐨 𝐁𝐨𝐭'
+global.titulowm = '𝐆𝐨𝐣𝐨 𝐁𝐨𝐭'
 global.titulowm2 = ''
 global.igfg = '@ethi_xxn'
 global.botname = '𝐆𝐨𝐣𝐨 𝐁𝐨𝐭'
@@ -56,15 +56,15 @@ global.estilox = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(f
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
 global.id_canal = '120363220939514640@newsletter' //-ID de canal de WhatsApp
-global.canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y' //CANAL GENESIS
+global.canal = 'https://whatsapp.com/channel/0029VakEHho59PwWDNL8ZX1C'//CANAL 𝐆𝐨𝐣𝐨 𝐛𝐨𝐭
 global.canal2 = 'https://whatsapp.com/channel/0029VafjvaaEgGfOe5KdmX1n' //CANAL TITANIUM TEAM
 global.bgp = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6' //GRUPO DE AVISOS
 global.bgp2 = 'https://chat.whatsapp.com/EVl0wxlCww74HV3vvZq83a' //GRUPO GLOBAL 1
 global.bgp3 = 'https://chat.whatsapp.com/DVt1mhZ6H7EIpt4lmjURwq' //GRUPO GLOBAL 2
 global.bgp4 = 'https://chat.whatsapp.com/Fn5Ipyxu6mE6qEQlwWZTwU' //GRUPO NSFW
 global.md = 'https://github.com/Angelito-OFC/Genesis-OFC' //Github Oficial
-global.ig = 'https://www.instagram.com/usxr_angelito0' //Ig Oficial
-global.correo = 'agasistencia2@gmail.com'
+global.ig = 'https://www.instagram.com/ethi_xxn?igsh=MTJ1NTZteDlsdmh5Zg==' //Ig Oficial
+global.correo = 'ethanjhones98@gmail.com'
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
