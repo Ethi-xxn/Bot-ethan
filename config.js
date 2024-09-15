@@ -29,12 +29,12 @@ global.mods = []
 global.packname = 'gojo bot'
 global.author = '@ethi_xxn'
 global.wm = 'Gojo bot'
-global.titulowm = 'GenesisBot-Pro 🤍'
+global.titulowm = 'G𝐆𝐨𝐣𝐨 𝐁𝐨𝐭'
 global.titulowm2 = ''
-global.igfg = '@usxr_angelito0'
-global.botname = '𝗚𝗲𝗻𝗲𝘀𝗶𝘀𝗕𝗼𝘁 🤍'
-global.dev = '`𝗚𝗲𝗻𝗲𝘀𝗶𝘀𝗕𝗼𝘁 🤍`\n*By • Titanium Team 💥*'
-global.textbot = '𝗚𝗲𝗻𝗲𝘀𝗶𝘀𝗕𝗼𝘁 : 𝗔𝗻𝗴𝗲𝗹𝗶𝘁𝗼 🤍'
+global.igfg = '@ethi_xxn'
+global.botname = '𝐆𝐨𝐣𝐨 𝐁𝐨𝐭'
+global.dev = '`𝐆𝐨𝐣𝐨 𝐁𝐨𝐭`\n*By • Titanium Team 💥*'
+global.textbot = '𝐆𝐨𝐣𝐨 𝐁𝐨𝐭'
 global.vs = '1.4.0'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
