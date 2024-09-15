@@ -5,7 +5,7 @@ let staff = `☁️ *EQUIPO DE AYUDANTES*
 
 🤍 *Propietario:* 🤍
 
-• Angel-OFC
+• Ethan
 ☁️ *Rol:* Propietario
 ☁️ *Número:* ${creador}
 ☁️ *GitHub:* https://github.com/Angelito-OFC
