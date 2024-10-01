@@ -18,6 +18,6 @@ await conn.sendLuffy(m.chat, packname, textbot, bye, img, img, canal, estilo)
   }
 
   if (chat.welcome && m.messageStubType == 32) {
-    let kick = `┌─★ 𝐆𝐨𝐣𝐨 𝐁𝐨𝐭\n│「 ADIOS 👋 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │🤍  Se fue\n   │🤍 Jamás te quisimos aquí\n   └───────────────┈ ⳹`
+    let kick = `┌─★ 𝐆𝐨𝐣𝐨 𝐁𝐨𝐭\n│「 ADIOS 👋 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │🤍  Se fue\n   │🤍 aveces es mejor decir adios\n   └───────────────┈ ⳹`
 await conn.sendLuffy(m.chat, packname, textbot, kick, img, img, canal, estilo)
 }}
