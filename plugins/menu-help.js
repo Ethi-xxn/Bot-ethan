@@ -50,7 +50,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let menu = ``;
 
     let txt = ""
-      txt += 'ꭷ꯭፝֟͡🌴 𝐎𝐰𝐧𝐞𝐫 ::' +  𝐸𝑡ℎ𝑎r𝑛\n`;
+      txt += 'ꭷ꯭፝֟͡🌴 𝐎𝐰𝐧𝐞𝐫 ::' +  𝐸𝑡ℎ𝑎𝑛\n`;
     txt += 'ᥬ🎋⃝░ 𝐁𝐨𝐭 ::`' +  𝐚𝐢𝐤𝐨 𝐛𝐨𝐭\n`;
     txt += '░⃟🌳 𝐇𝐨𝐫𝐚𝐫𝐢𝐨 ::' +  ${fecha}\n`;
     txt += '📗⃟𝅚  ֺ 𝐕𝐞𝐫𝐬𝐢𝐨́𝐧 ::' +  ${vs}\n`;
