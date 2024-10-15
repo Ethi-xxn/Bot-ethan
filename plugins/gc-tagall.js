@@ -10,7 +10,7 @@ m.react('🤍')
 const oi = `*» INFO :* ${pesan}`;
   let teks = `*!ㅤ ㅤ ⏜
 ㅤㅤ  ✦🪭 ࣪◌ೇ 𝐈𝐧𝐯𝐨𝐜𝐚𝐧𝐝𝐨 𝐚𝐥 𝐠𝐫𝐮𝐩𝐨ִֶָ .
-ㅤ ㅤ ⏝࣪✦˖꒷꒦⏝꒦꒷꒦⏝꒦꒷꒦⏝꒦꒷   !*\n  *PARA ${participants.length} MIEMBROS* 🗣️\n\n ${oi}\n\n╭  ┄ 𝅄  ۪꒰ ׅ \`${packname}\` ׅ ꒱  ۟  𝅄 ┄\n`;
+ㅤ ㅤ ⏝࣪✦˖꒷꒦⏝꒦꒷꒦⏝꒦꒷꒦⏝꒦꒷   !*\n PAJEROS * ${participants.length} DESPIERTEN* 🗣️\n\n ${oi}\n\n╭  ┄ 𝅄  ۪꒰ ׅ \`${packname}\` ׅ ꒱  ۟  𝅄 ┄\n`;
   for (const mem of participants) {
     teks += ` ⫏ㅤֵ𑑓${mem.id.split('@')[0]}\n`;
   }
