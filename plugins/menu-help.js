@@ -55,7 +55,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     txt += '░⃟🌳 𝐇𝐨𝐫𝐚𝐫𝐢𝐨 ::' +  ${fecha}\n`;
     txt += '📗⃟𝅚  ֺ 𝐕𝐞𝐫𝐬𝐢𝐨́𝐧 ::' +  ${vs}\n`;
 //    txt += ${sbot}\n`;
-    txt += '🥬⃞፝䃽 𝐏𝐫𝐞𝐟𝐢𝐣𝐨 ::' +  [  ${usedPrefix}  ]\n`;
+    txt += '🥬⃞፝䃽 𝐏𝐫𝐞𝐟𝐢𝐣𝐨 :: +  [  ${usedPrefix}  ]\n`;
     txt += '埴  ׅ🪴  ⦊ 𝐔𝐬𝐞𝐫𝐬 ::' +  ${rtotal}\n`;
     txt += 'ᴠᴇʀɪꜰɪᴄᴀᴅᴏꜱ ::' +  ${rtotalreg}\n`;
     txt += '🍋‍🟩𝐓𝐢𝐞𝐦𝐩𝐨 𝐚𝐜𝐭𝐢𝐯𝐨 ::' +  ${uptime}\n`;
